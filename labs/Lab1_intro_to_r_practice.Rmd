@@ -1,0 +1,33 @@
+---
+title: "Lab1_intro_to_r_practice"
+author: "Alin"
+date: "2024-01-31"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(eval = TRUE, message = FALSE, warning = FALSE)
+```
+
+## Installing Packages
+
+```{r}
+install.packages("tidyverse")
+install.packages("openintro")
+```
+
+## Loading Packages
+
+```{r}
+library(tidyverse)
+library(openintro)
+```
+
+## Example
+```{r}
+data('arbuthnot', package='openintro')
+
+```
+
+
+## Including Plots
